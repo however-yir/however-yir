@@ -1,8 +1,8 @@
 # Hi there, I’m @however-yir 👋
 
-- 👀 I’m interested in backend development, AI applications, and education tech.  
-- 🌱 I’m currently learning about large language model deployment & SpringBoot-based web systems.  
-- 💞️ I’m looking to collaborate on open-source projects related to Java backend or Python-based AI tools.  
+- 👀 I’m interested in AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football.  
+- 🌱 I’m currently focused on Java backend + Vue projects, while actively exploring AI development — including LLM workflows, local model deployment with Ollama and LM Studio, as well as RAG, LangChain, and AI agent development.  
+- 💞️ I’m looking to collaborate on practical open-source projects in Spring Boot, recommendation systems, and AI-powered applications.  
 - 📫 How to reach me: liuhowever@gmail.com  
 - 😄 Pronouns: he/him  
-- ⚡ Fun fact: I write code, teach history, and can debug while watching a football match.  
+- ⚡ Fun fact: I support Shandong Taishan FC, enjoy discovering great cafes and restaurants, and often test side projects across Apple devices.  
