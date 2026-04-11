@@ -7,7 +7,7 @@
 - 😄 Pronouns: he/him  
 - ⚡ Fun fact: I support Shandong Taishan FC, enjoy discovering great cafes and restaurants, and often test side projects across Apple devices.  
 
-## Portfolio Governance
+## Open Source Contributions
 
-- Commit policy & ADR traceability: [docs/portfolio-governance.md](docs/portfolio-governance.md)
-- Core-project grouping for hiring review: [docs/core-project-grouping.md](docs/core-project-grouping.md)
+- `spring-ai-alibaba/examples` [#452](https://github.com/spring-ai-alibaba/examples/pull/452) — docs: add module quickstart matrix to README
+- `spring-ai-alibaba/examples` [#453](https://github.com/spring-ai-alibaba/examples/pull/453) — chore: add .env.example for MCP/RAG/tool-calling modules
