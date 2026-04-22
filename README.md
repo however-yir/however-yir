@@ -11,4 +11,6 @@
 
 - `spring-ai-alibaba/examples` [#452](https://github.com/spring-ai-alibaba/examples/pull/452) — docs: add module quickstart matrix to README
 - `spring-ai-alibaba/examples` [#453](https://github.com/spring-ai-alibaba/examples/pull/453) — chore: add .env.example for MCP/RAG/tool-calling modules
+- `spring-ai-alibaba/examples` [#457](https://github.com/spring-ai-alibaba/examples/pull/457) — docs: improve quickstart onboarding and troubleshooting
+- `spring-ai-alibaba/examples` [#458](https://github.com/spring-ai-alibaba/examples/pull/458) — chore: add env templates to more dashscope examples
 - `MiniMax-AI/cli` [#84](https://github.com/MiniMax-AI/cli/pull/84) — docs: fix video --download example and clarify auth credential locations
