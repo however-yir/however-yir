@@ -1,13 +1,13 @@
-# 你好，我是然而 / however-yir
+# Hi, I'm however-yir
 
-AI Engineer & Java Backend Developer，专注于构建可部署、可验证、可运维的 AI 工程系统。
+AI Engineer & Java Backend Developer focused on building deployable, verifiable, and operable AI engineering systems.
 
-我目前主要做：
+Currently focused on:
 
-- Spring AI、RAG、Tool Calling、MCP 与 Multi-Agent 系统
-- Java / Spring Boot 企业级后端工程
-- 企业知识库、智能问答、推荐系统与 AI 工作流平台
-- AI 应用工程化落地：权限、安全、评测、可观测、CI/CD 与部署
+- Spring AI, RAG, tool calling, MCP, and multi-agent systems
+- Java / Spring Boot enterprise backend engineering
+- Enterprise knowledge bases, intelligent Q&A, recommendation systems, and AI workflow platforms
+- AI application engineering across auth, security, evaluation, observability, CI/CD, and deployment
 
 I build production-minded AI systems with Java, Spring Boot, RAG, tool calling, observability, evaluation, and deployable workflows.
 
@@ -24,7 +24,6 @@ I build production-minded AI systems with Java, Spring Boot, RAG, tool calling, 
 ## Contact
 
 - Email: liuhowever@gmail.com
-- Location: 济南，山东，中国
 - Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football
 
 ## Open Source Contributions
