@@ -1,11 +1,31 @@
-# Hi there, I’m @however-yir 👋
+# 你好，我是然而 / however-yir
 
-- 👀 I’m interested in AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football.  
-- 🌱 I’m currently focused on Java backend + Vue projects, while actively exploring AI development — including LLM workflows, local model deployment with Ollama and LM Studio, as well as RAG, LangChain, and AI agent development.  
-- 💞️ I’m looking to collaborate on practical open-source projects in Spring Boot, recommendation systems, and AI-powered applications.  
-- 📫 How to reach me: liuhowever@gmail.com  
-- 😄 Pronouns: he/him  
-- ⚡ Fun fact: I support Shandong Taishan FC, enjoy discovering great cafes and restaurants, and often test side projects across Apple devices.  
+AI Engineer & Java Backend Developer，专注于构建可部署、可验证、可运维的 AI 工程系统。
+
+我目前主要做：
+
+- Spring AI、RAG、Tool Calling、MCP 与 Multi-Agent 系统
+- Java / Spring Boot 企业级后端工程
+- 企业知识库、智能问答、推荐系统与 AI 工作流平台
+- AI 应用工程化落地：权限、安全、评测、可观测、CI/CD 与部署
+
+I build production-minded AI systems with Java, Spring Boot, RAG, tool calling, observability, evaluation, and deployable workflows.
+
+## Featured Projects
+
+| Project | 定位 | 技术重点 |
+|---|---|---|
+| [`knowledgeops-agent`](https://github.com/however-yir/knowledgeops-agent) | 企业级 Spring AI RAG 平台 | Spring AI、RAG、JWT/RBAC、Observability、Evaluation |
+| [`tianji-ai-agent`](https://github.com/however-yir/tianji-ai-agent) | 业务 Agent 工程案例 | Java、Spring AI、Tool Calling、MCP、SSE、多模态 |
+| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | 知识运营中枢 | Django、PostgreSQL、Redis、RAG、知识资产生命周期 |
+| [`forgepilot-studio`](https://github.com/however-yir/forgepilot-studio) | AI 工程执行工作台 | Python、FastAPI、React、Runtime Sandbox、MCP |
+| [`however-microservices-lab`](https://github.com/however-yir/however-microservices-lab) | 云原生微服务 + AI 集成实验室 | Go、Python、Java、Node.js、C#、Kubernetes、gRPC |
+
+## Contact
+
+- Email: liuhowever@gmail.com
+- Location: 济南，山东，中国
+- Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football
 
 ## Open Source Contributions
 
