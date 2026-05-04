@@ -43,3 +43,4 @@ Currently focused on:
 - `spring-ai-alibaba/examples` [#458](https://github.com/spring-ai-alibaba/examples/pull/458) — chore: add env templates to more dashscope examples
 - `MiniMax-AI/cli` [#84](https://github.com/MiniMax-AI/cli/pull/84) — docs: fix video --download example and clarify auth credential locations
 
+<!-- yolo -->
