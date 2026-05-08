@@ -37,7 +37,7 @@ Microservices Lab   -> cloud-native layer: multi-language services, K8s, gRPC, A
 |---|---|---|
 | [`knowledgeops-agent`](https://github.com/however-yir/knowledgeops-agent) | [Portfolio →](https://however-yir.github.io/projects/knowledgeops-agent/) | Spring AI, RAG, JWT/RBAC, Observability |
 | [`tianji-ai-agent`](https://github.com/however-yir/tianji-ai-agent) | [Portfolio →](https://however-yir.github.io/projects/tianji-ai-agent/) | Java, Spring AI, Tool Calling, MCP, SSE |
-| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | [Portfolio →](https://however-yir.github.io/projects/nebula-kb/) | Django, PostgreSQL, Redis, RAG |
+| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | [Portfolio →](https://however-yir.github.io/projects/nebula-kb/) | Django, PostgreSQL, Redis, RAG + DeepDoc, Open WebUI |
 | [`forgepilot-studio`](https://github.com/however-yir/forgepilot-studio) | [Portfolio →](https://however-yir.github.io/projects/forgepilot-studio/) | Python, FastAPI, React, MCP |
 | [`however-microservices-lab`](https://github.com/however-yir/however-microservices-lab) | [Portfolio →](https://however-yir.github.io/projects/however-microservices-lab/) | Go, Python, Java, Node.js, C#, K8s, gRPC |
 | [`campus-recruitment-recommendation-system`](https://github.com/however-yir/campus-recruitment-recommendation-system) | [Portfolio →](https://however-yir.github.io/projects/campus-recruitment-recommendation-system/) | Spring Boot, Vue2, MySQL, Collaborative Filtering |
