@@ -10,7 +10,7 @@
 
 AI Engineer & Java Backend Developer focused on building deployable, verifiable, and operable AI engineering systems.
 
-> **Portfolio:** [however-yir.github.io](https://however-yir.github.io) — 5 AI matrix projects · RAG · Agent · Knowledge Ops · Cloud Native
+> **Portfolio:** [however-yir.github.io](https://however-yir.github.io) — 6 AI matrix projects · RAG · Agent · Knowledge Ops · Cloud Native
 
 Currently focused on:
 
@@ -23,7 +23,7 @@ Currently focused on:
 
 ### AI Engineering Matrix
 
-The five AI repositories are designed as one portfolio system rather than isolated demos:
+The six AI repositories are designed as one portfolio system rather than isolated demos:
 
 ```text
 KnowledgeOps Agent  -> platform baseline: RAG, workflow state, memory, evidence, observability
@@ -31,6 +31,7 @@ Tianji AI Agent     -> business agent case: routing, tool calling, SSE, structur
 NebulaKB            -> knowledge operations: ingestion lifecycle, governance, quality feedback
 ForgePilot Studio   -> engineering execution: task protocol, runtime, audit replay, MCP tools
 Microservices Lab   -> cloud-native layer: multi-language services, K8s, gRPC, AI integration
+Campus Recruitment  -> recommendation system: collaborative filtering, data pipeline, frontend
 ```
 
 | Project | Case Study | Stack |
@@ -62,5 +63,3 @@ Full cross-repository demo mainline: [docs/ai-matrix-demo-mainline.md](docs/ai-m
 - `spring-ai-alibaba/examples` [#457](https://github.com/spring-ai-alibaba/examples/pull/457) — docs: improve quickstart onboarding and troubleshooting
 - `spring-ai-alibaba/examples` [#458](https://github.com/spring-ai-alibaba/examples/pull/458) — chore: add env templates to more dashscope examples
 - `MiniMax-AI/cli` [#84](https://github.com/MiniMax-AI/cli/pull/84) — docs: fix video --download example and clarify auth credential locations
-
-<!-- yolo -->
