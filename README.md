@@ -52,7 +52,7 @@ Full cross-repository demo mainline: [docs/ai-matrix-demo-mainline.md](docs/ai-m
 ## Contact
 
 - Email: liuhowever@gmail.com
-- Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football
+- Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, and films
 
 ## Open Source Contributions
 
