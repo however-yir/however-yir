@@ -14,7 +14,7 @@ The matrix shows a full AI engineering stack:
 
 ## 10-Minute Pass
 
-1. Open the portfolio homepage: <https://however-yir.github.io/>.
+1. Start with the [Featured Projects](../README.md#featured-projects) overview.
 2. Open `knowledgeops-agent` and scan the README hero, architecture, evidence links, and release.
 3. Open `tianji-ai-agent` and scan the RouteAgent diagram, SSE event flow, and demo GIF.
 4. Open each repository's `docs/evidence/README.md`.
@@ -34,4 +34,3 @@ The matrix shows a full AI engineering stack:
 - NebulaKB: knowledge lifecycle services, document ingestion, feedback, and operations boundaries.
 - ForgePilot Studio: control plane, task protocol, audit timeline, model configuration, and MCP tooling.
 - However Microservices Lab: shopping assistant service, model provider abstraction, K8s manifests, CI, SBOM, and local demo path.
-

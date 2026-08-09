@@ -1,6 +1,6 @@
 <div align="center">
 
-**[🌐 AI Engineering Portfolio →](https://however-yir.github.io)**
+**[🌐 AI Engineering Portfolio →](https://zhuoran-ai-engineering-portfolio.pages.dev/)**
 
 </div>
 
@@ -9,8 +9,6 @@
 # Hi, I'm however-yir
 
 AI Engineer & Java Backend Developer focused on building deployable, verifiable, and operable AI engineering systems.
-
-> **Portfolio:** [however-yir.github.io](https://however-yir.github.io) — 6 AI matrix projects · RAG · Agent · Knowledge Ops · Cloud Native
 
 Currently focused on:
 
@@ -23,7 +21,7 @@ Currently focused on:
 
 ### AI Engineering Matrix
 
-The six AI repositories are designed as one portfolio system rather than isolated demos:
+Five repositories form the core AI engineering matrix; the campus recruitment system adds an applied recommendation case:
 
 ```text
 KnowledgeOps Agent  -> platform baseline: RAG, workflow state, memory, evidence, observability
@@ -34,18 +32,18 @@ Microservices Lab   -> cloud-native layer: multi-language services, K8s, gRPC, A
 Campus Recruitment  -> recommendation system: collaborative filtering, data pipeline, frontend
 ```
 
-| Project | Case Study | Stack |
+| Project | Role | Stack |
 |---|---|---|
-| [`knowledgeops-agent`](https://github.com/however-yir/knowledgeops-agent) | [Portfolio →](https://however-yir.github.io/projects/knowledgeops-agent/) | Spring AI, RAG, JWT/RBAC, Observability |
-| [`tianji-ai-agent`](https://github.com/however-yir/tianji-ai-agent) | [Portfolio →](https://however-yir.github.io/projects/tianji-ai-agent/) | Java, Spring AI, Tool Calling, MCP, SSE |
-| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | [Portfolio →](https://however-yir.github.io/projects/nebula-kb/) | Django, PostgreSQL, Redis, RAG + DeepDoc, Open WebUI |
-| [`forgepilot-studio`](https://github.com/however-yir/forgepilot-studio) | [Portfolio →](https://however-yir.github.io/projects/forgepilot-studio/) | Python, FastAPI, React, MCP |
-| [`however-microservices-lab`](https://github.com/however-yir/however-microservices-lab) | [Portfolio →](https://however-yir.github.io/projects/however-microservices-lab/) | Go, Python, Java, Node.js, C#, K8s, gRPC |
-| [`campus-recruitment-recommendation-system`](https://github.com/however-yir/campus-recruitment-recommendation-system) | [Portfolio →](https://however-yir.github.io/projects/campus-recruitment-recommendation-system/) | Spring Boot, Vue2, MySQL, Collaborative Filtering |
+| [`knowledgeops-agent`](https://github.com/however-yir/knowledgeops-agent) | Enterprise AI platform baseline | Spring AI, RAG, JWT/RBAC, Observability |
+| [`tianji-ai-agent`](https://github.com/however-yir/tianji-ai-agent) | Business Agent case | Java, Spring AI, Tool Calling, MCP, SSE |
+| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | Knowledge operations platform | Django, PostgreSQL, Redis, RAG + DeepDoc, Open WebUI |
+| [`forgepilot-studio`](https://github.com/however-yir/forgepilot-studio) | Auditable AI execution workspace | Python, FastAPI, React, MCP |
+| [`however-microservices-lab`](https://github.com/however-yir/however-microservices-lab) | Cloud-native integration layer | Go, Python, Java, Node.js, C#, K8s, gRPC |
+| [`campus-recruitment-recommendation-system`](https://github.com/however-yir/campus-recruitment-recommendation-system) | Applied recommendation system | Spring Boot, Vue2, MySQL, Collaborative Filtering |
 
 ## Technical Review Path
 
-- **10 minutes:** read [however-yir.github.io](https://however-yir.github.io/), open `knowledgeops-agent` and `tianji-ai-agent`, then scan each README hero, architecture image, quick-start command, and release note.
+- **10 minutes:** open `knowledgeops-agent` and `tianji-ai-agent`, then scan each README overview, architecture image, quick-start command, and release note.
 - **30 minutes:** open each repository's `docs/evidence/` pack, CI workflows, demo script, screenshots, and local run notes to verify that the projects are runnable and observable.
 - **Source deep dive:** start with KnowledgeOps workflow/RAG/memory modules, then Tianji routing and SSE agents, NebulaKB lifecycle services, ForgePilot control plane, and Microservices Lab deployment paths.
 
