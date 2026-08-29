@@ -1,9 +1,3 @@
-<div align="center">
-
-**[🌐 AI Engineering Portfolio →](https://zhuoran-ai-engineering-portfolio.pages.dev/)**
-
-</div>
-
 ---
 
 # Hi, I'm however-yir
