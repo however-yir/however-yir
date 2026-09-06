@@ -1,57 +1,34 @@
----
-
 # Hi, I'm however-yir
 
-AI Engineer & Java Backend Developer focused on building deployable, verifiable, and operable AI engineering systems.
+**AI Engineer & Java Backend Developer** working on knowledge retrieval, business agents, and backend reliability.
 
-Currently focused on:
-
-- Spring AI, RAG, tool calling, MCP, and multi-agent systems
-- Java / Spring Boot enterprise backend engineering
-- Enterprise knowledge bases, intelligent Q&A, recommendation systems, and AI workflow platforms
-- AI application engineering across auth, security, evaluation, observability, CI/CD, and deployment
+专注 AI 应用工程与 Java 后端：让知识问答有据可查，让业务 Agent 的动作可控，让系统改动有验证依据。
 
 ## Featured Projects
 
-### AI Engineering Matrix
-
-Five repositories form the core AI engineering matrix; the campus recruitment system adds an applied recommendation case:
-
-```text
-KnowledgeOps Agent  -> platform baseline: RAG, workflow state, memory, evidence, observability
-Tianji AI Agent     -> business agent case: routing, tool calling, SSE, structured UI payloads
-NebulaKB            -> knowledge operations: ingestion lifecycle, governance, quality feedback
-ForgePilot Studio   -> engineering execution: task protocol, runtime, audit replay, MCP tools
-Microservices Lab   -> cloud-native layer: multi-language services, K8s, gRPC, AI integration
-Campus Recruitment  -> recommendation system: collaborative filtering, data pipeline, frontend
-```
-
-| Project | Role | Stack |
+| Project | Engineering focus | Explore |
 |---|---|---|
-| [`knowledgeops-agent`](https://github.com/however-yir/knowledgeops-agent) | Enterprise AI platform baseline | Spring AI, RAG, JWT/RBAC, Observability |
-| [`tianji-ai-agent`](https://github.com/however-yir/tianji-ai-agent) | Business Agent case | Java, Spring AI, Tool Calling, MCP, SSE |
-| [`nebula-kb`](https://github.com/however-yir/nebula-kb) | Knowledge operations platform | Django, PostgreSQL, Redis, RAG + DeepDoc, Open WebUI |
-| [`forgepilot-studio`](https://github.com/however-yir/forgepilot-studio) | Auditable AI execution workspace | Python, FastAPI, React, MCP |
-| [`however-microservices-lab`](https://github.com/however-yir/however-microservices-lab) | Cloud-native integration layer | Go, Python, Java, Node.js, C#, K8s, gRPC |
-| [`campus-recruitment-recommendation-system`](https://github.com/however-yir/campus-recruitment-recommendation-system) | Applied recommendation system | Spring Boot, Vue2, MySQL, Collaborative Filtering |
+| [KnowledgeOps Agent](https://github.com/however-yir/knowledgeops-agent) | Spring AI platform prototype: tenant-scoped RAG, asynchronous document ingestion, answer citations and evaluation. | [Demo](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/demo-script.md) · [Design](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/architecture-enterprise.md) · [Evidence](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/evidence/README.md) |
+| [Tianji AI Agent](https://github.com/however-yir/tianji-ai-agent) | Course-advisor Agent: intent routing, governed order previews, execution budgets and SSE contracts on an existing business backend. | [Demo](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/demo-script.md) · [Design](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/agent-design.md) · [Evidence](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/evidence/README.md) |
+| [NebulaKB](https://github.com/however-yir/nebula-kb) | Django knowledge operations: document ingestion, retrieval feedback and low-quality answer review. | [Demo](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md) · [Design](https://github.com/however-yir/nebula-kb/blob/main/docs/repo-positioning.md) · [Evidence](https://github.com/however-yir/nebula-kb/blob/main/docs/evidence/README.md) |
+| [ForgePilot Studio](https://github.com/however-yir/forgepilot-studio) | OpenHands-based workbench: task console, audit tooling and experimental governance modules. | [Demo](https://github.com/however-yir/forgepilot-studio#产品预览) · [Design](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md) · [Evidence](https://github.com/however-yir/forgepilot-studio/blob/main/docs/evidence/README.md) |
+| [Microservices Lab](https://github.com/however-yir/however-microservices-lab) | Online Boutique extension: AI shopping assistant, local model fallback and Kubernetes integration. | [Demo](https://github.com/however-yir/however-microservices-lab/blob/main/docs/local-demo.md) · [Design](https://github.com/however-yir/however-microservices-lab/blob/main/docs/diff-from-upstream.md) · [Evidence](https://github.com/however-yir/however-microservices-lab/blob/main/docs/evidence/README.md) |
+| [Campus Recruitment](https://github.com/however-yir/campus-recruitment-recommendation-system) | Academic Spring Boot/Vue project: weighted collaborative filtering, cold-start fallback and recruitment workflows. | [Demo](https://github.com/however-yir/campus-recruitment-recommendation-system#13-截图与演示) · [Design](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现) · [Evidence](https://github.com/however-yir/campus-recruitment-recommendation-system#12-测试与质量保障) |
 
-## Technical Review Path
+**Start with KnowledgeOps for the Java/RAG platform, then Tianji for business Agent execution.**
 
-- **10 minutes:** open `knowledgeops-agent` and `tianji-ai-agent`, then scan each README overview, architecture image, quick-start command, and release note.
-- **30 minutes:** open each repository's `docs/evidence/` pack, CI workflows, demo script, screenshots, and local run notes to verify that the projects are runnable and observable.
-- **Source deep dive:** start with KnowledgeOps workflow/RAG/memory modules, then Tianji routing and SSE agents, NebulaKB lifecycle services, ForgePilot control plane, and Microservices Lab deployment paths.
+For inherited code and project-specific changes, see the [project scope and provenance guide](docs/core-project-grouping.md). ForgePilot's core governance modules are experimental and are **not wired into the default OpenHands execution path**; its design links describe that boundary.
 
-Full cross-repository demo mainline: [docs/ai-matrix-demo-mainline.md](docs/ai-matrix-demo-mainline.md).
-
-## Contact
-
-- Email: liuhowever@gmail.com
-- Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football
+[Reading routes](docs/ai-matrix-demo-mainline.md) · [How to interpret the evidence](docs/portfolio-governance.md)
 
 ## Open Source Contributions
 
-- `spring-ai-alibaba/examples` [#452](https://github.com/spring-ai-alibaba/examples/pull/452) — docs: add module quickstart matrix to README
-- `spring-ai-alibaba/examples` [#453](https://github.com/spring-ai-alibaba/examples/pull/453) — chore: add .env.example for MCP/RAG/tool-calling modules
-- `spring-ai-alibaba/examples` [#457](https://github.com/spring-ai-alibaba/examples/pull/457) — docs: improve quickstart onboarding and troubleshooting
-- `spring-ai-alibaba/examples` [#458](https://github.com/spring-ai-alibaba/examples/pull/458) — chore: add env templates to more dashscope examples
-- `MiniMax-AI/cli` [#84](https://github.com/MiniMax-AI/cli/pull/84) — docs: fix video --download example and clarify auth credential locations
+**5 merged external pull requests** across Spring AI Alibaba examples (4) and MiniMax CLI (1), covering documentation and example configuration.
+
+- **Spring AI Alibaba examples:** [#452](https://github.com/spring-ai-alibaba/examples/pull/452) quick-start matrix; [#453](https://github.com/spring-ai-alibaba/examples/pull/453) MCP/RAG/tool-calling environment templates; [#457](https://github.com/spring-ai-alibaba/examples/pull/457) onboarding and troubleshooting; [#458](https://github.com/spring-ai-alibaba/examples/pull/458) additional DashScope environment templates.
+- **MiniMax CLI:** [#84](https://github.com/MiniMax-AI/cli/pull/84) corrected the video download example and clarified credential locations.
+
+## Contact
+
+- Email: [liuhowever@gmail.com](mailto:liuhowever@gmail.com)
+- Interests: AI products, backend engineering, consumer tech, history, travel, coffee shops, food, films, and football

@@ -1,36 +1,38 @@
-# AI Matrix Demo Mainline
+# 演示、设计与验证阅读路线
 
-This document gives one coherent review path across the five AI engineering repositories.
+[返回主页](../README.md#featured-projects) · [项目来源与改造重点](core-project-grouping.md)
 
-## Story
+下面的入口对应主页现有的六个项目，可以直接在线阅读。演示说明中的启动命令是复现入口；是否执行，以及使用什么环境和模型，由读者按需决定。
 
-The matrix shows a full AI engineering stack:
+## 按项目进入
 
-1. `knowledgeops-agent` provides the governed AI platform baseline: RAG, workflow state, evidence, memory, graph retrieval, evaluation, and observability.
-2. `tianji-ai-agent` consumes that platform layer as a business Agent case: routing, tool calling, customer-service flow, structured SSE events, and card UI.
-3. `nebula-kb` manages knowledge assets before and after retrieval: ingestion lifecycle, governance, feedback, quality review, and operations dashboards.
-4. `forgepilot-studio` demonstrates an AI engineering execution workspace: task protocol, runtime execution, tool governance, audit replay, and delivery reports.
-5. `however-microservices-lab` shows the cloud-native deployment layer: multi-language services, Kubernetes, gRPC, local model fallback, and AI service integration.
+| 项目 | 演示与使用 | 设计与改造 | 验证材料 |
+|---|---|---|---|
+| KnowledgeOps Agent | [演示脚本](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/demo-script.md) | [企业架构](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/architecture-enterprise.md) | [证据索引](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/evidence/README.md) |
+| Tianji AI Agent | [业务演示](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/demo-script.md) | [Agent 设计](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/agent-design.md) | [证据索引](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/evidence/README.md) |
+| NebulaKB | [生命周期演示](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md) | [定位与边界](https://github.com/however-yir/nebula-kb/blob/main/docs/repo-positioning.md) | [证据索引](https://github.com/however-yir/nebula-kb/blob/main/docs/evidence/README.md) |
+| ForgePilot Studio | [产品预览](https://github.com/however-yir/forgepilot-studio#产品预览) | [上游与改造说明](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md) | [证据索引](https://github.com/however-yir/forgepilot-studio/blob/main/docs/evidence/README.md) |
+| Microservices Lab | [本地演示](https://github.com/however-yir/however-microservices-lab/blob/main/docs/local-demo.md) | [上游与改造说明](https://github.com/however-yir/however-microservices-lab/blob/main/docs/diff-from-upstream.md) | [证据索引](https://github.com/however-yir/however-microservices-lab/blob/main/docs/evidence/README.md) |
+| Campus Recruitment | [截图与演示](https://github.com/however-yir/campus-recruitment-recommendation-system#13-截图与演示) | [推荐算法与实现](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现) | [测试与质量保障](https://github.com/however-yir/campus-recruitment-recommendation-system#12-测试与质量保障) |
 
-## 10-Minute Pass
+## 快速了解：约 10 分钟
 
-1. Start with the [Featured Projects](../README.md#featured-projects) overview.
-2. Open `knowledgeops-agent` and scan the README hero, architecture, evidence links, and release.
-3. Open `tianji-ai-agent` and scan the RouteAgent diagram, SSE event flow, and demo GIF.
-4. Open each repository's `docs/evidence/README.md`.
+1. 从 [KnowledgeOps 演示](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/demo-script.md)了解文档问答，再看[架构](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/architecture-enterprise.md)中的租户、入库与检索边界。
+2. 从 [Tianji Agent 设计](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/agent-design.md)了解课程咨询和预下单链路，再看[验证材料](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/evidence/README.md)。
+3. 想看推荐算法时，直接打开[校园招聘推荐设计](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现)；关注 Python 知识运营时，可从 [NebulaKB 演示](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md)开始。
 
-## 30-Minute Pass
+## 深入阅读：约 30 分钟
 
-1. Run or inspect the `knowledgeops-agent` demo path and observability docs.
-2. Run or inspect the `tianji-ai-agent` dev-demo path and frontend screenshots.
-3. Review `nebula-kb` lifecycle demo and operations screenshots.
-4. Review `forgepilot-studio` task console, runtime log, and module map.
-5. Review `however-microservices-lab` local demo, CI workflows, and deployment docs.
+选择一个项目，对照阅读三个方面：
 
-## Source Deep Dive
+- **业务问题**：输入、输出和失败情形是什么？
+- **实现取舍**：哪些组件来自上游，项目新增了哪些逻辑，为什么这样设计？
+- **验证依据**：测试或报告针对哪个版本、什么数据与环境，哪些能力尚未验证？
 
-- KnowledgeOps Agent: workflow, RAG, retrieval, memory, graph, evidence, and observability modules.
-- Tianji AI Agent: `AgentServiceImpl`, `RouteAgent`, business sub-agents, tools, SSE event models, and React visualizations.
-- NebulaKB: knowledge lifecycle services, document ingestion, feedback, and operations boundaries.
-- ForgePilot Studio: control plane, task protocol, audit timeline, model configuration, and MCP tooling.
-- However Microservices Lab: shopping assistant service, model provider abstraction, K8s manifests, CI, SBOM, and local demo path.
+Tianji 的 Agent 工作与业务底座区分见[来源说明](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/provenance.md)。ForgePilot 的治理模块接线状态见[差异说明](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md)。Microservices Lab 的新增服务与部署改造见[上游对照](https://github.com/however-yir/however-microservices-lab/blob/main/docs/diff-from-upstream.md)。
+
+## 跨仓库集成
+
+KnowledgeOps 与 Tianji 的集成有独立的启用条件和降级路径，见 [KnowledgeOps 跨仓库验证材料](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/evidence/README.md)。分别构建成功与两个服务实际连通，是不同的验证结论。
+
+其他项目可以各自阅读和复现。完整的验证口径见[证据说明](portfolio-governance.md)。
