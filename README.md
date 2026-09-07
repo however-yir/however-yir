@@ -23,8 +23,9 @@ For inherited code and project-specific changes, see the [project scope and prov
 
 ## Open Source Contributions
 
-**5 merged external pull requests** across Spring AI Alibaba examples (4) and MiniMax CLI (1), covering documentation and example configuration.
+**7 merged external pull requests** across Dify (2), Spring AI Alibaba examples (4), and MiniMax CLI (1), covering framework backend refactoring, documentation, and configuration templates.
 
+- **Dify:** [#41883](https://github.com/langgenius/dify/pull/41883) removed legacy `db.session` wrappers on Message feedback and annotation accessors; [#41885](https://github.com/langgenius/dify/pull/41885) passed database session into `AppAnnotationSetting.collection_binding_detail`.
 - **Spring AI Alibaba examples:** [#452](https://github.com/spring-ai-alibaba/examples/pull/452) quick-start matrix; [#453](https://github.com/spring-ai-alibaba/examples/pull/453) MCP/RAG/tool-calling environment templates; [#457](https://github.com/spring-ai-alibaba/examples/pull/457) onboarding and troubleshooting; [#458](https://github.com/spring-ai-alibaba/examples/pull/458) additional DashScope environment templates.
 - **MiniMax CLI:** [#84](https://github.com/MiniMax-AI/cli/pull/84) corrected the video download example and clarified credential locations.
 
