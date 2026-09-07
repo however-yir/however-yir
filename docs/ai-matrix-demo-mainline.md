@@ -13,13 +13,13 @@
 | NebulaKB | [生命周期演示](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md) | [定位与边界](https://github.com/however-yir/nebula-kb/blob/main/docs/repo-positioning.md) | [证据索引](https://github.com/however-yir/nebula-kb/blob/main/docs/evidence/README.md) |
 | ForgePilot Studio | [产品预览](https://github.com/however-yir/forgepilot-studio#产品预览) | [上游与改造说明](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md) | [证据索引](https://github.com/however-yir/forgepilot-studio/blob/main/docs/evidence/README.md) |
 | Microservices Lab | [本地演示](https://github.com/however-yir/however-microservices-lab/blob/main/docs/local-demo.md) | [上游与改造说明](https://github.com/however-yir/however-microservices-lab/blob/main/docs/diff-from-upstream.md) | [证据索引](https://github.com/however-yir/however-microservices-lab/blob/main/docs/evidence/README.md) |
-| Campus Recruitment | [截图与演示](https://github.com/however-yir/campus-recruitment-recommendation-system#13-截图与演示) | [推荐算法与实现](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现) | [测试与质量保障](https://github.com/however-yir/campus-recruitment-recommendation-system#12-测试与质量保障) |
+| ragproof | [CLI 演示](https://github.com/however-yir/ragproof#run-a-gate-in-30-seconds) | [架构设计](https://github.com/however-yir/ragproof/blob/main/docs/ARCHITECTURE.md) | [公开 Benchmark 报告](https://github.com/however-yir/ragproof/blob/main/docs/PUBLIC_BENCHMARK_REPORT.md) |
 
 ## 快速了解：约 10 分钟
 
 1. 从 [KnowledgeOps 演示](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/demo-script.md)了解文档问答，再看[架构](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/architecture-enterprise.md)中的租户、入库与检索边界。
 2. 从 [Tianji Agent 设计](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/agent-design.md)了解课程咨询和预下单链路，再看[验证材料](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/evidence/README.md)。
-3. 想看推荐算法时，直接打开[校园招聘推荐设计](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现)；关注 Python 知识运营时，可从 [NebulaKB 演示](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md)开始。
+3. 想看评测门禁与自动化防退化时，直接打开 [ragproof 架构设计](https://github.com/however-yir/ragproof/blob/main/docs/ARCHITECTURE.md) 与 [公开 Benchmark 报告](https://github.com/however-yir/ragproof/blob/main/docs/PUBLIC_BENCHMARK_REPORT.md)；关注 Python 知识运营时，可从 [NebulaKB 演示](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md)开始。
 
 ## 深入阅读：约 30 分钟
 

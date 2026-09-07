@@ -23,16 +23,15 @@
 - 阅读重点：模型提出动作后，策略和运行时如何控制实际执行；购买流程如何停在订单预确认。
 - 验证边界：仓库中的 160 条离线路由用例用于路由与契约回归；真实模型表现及跨仓库集成需按各自运行条件验证。
 
-### Campus Recruitment Recommendation System
+## 评测门禁、知识运营与云原生工程
 
-[项目主页](https://github.com/however-yir/campus-recruitment-recommendation-system) · [推荐系统设计](https://github.com/however-yir/campus-recruitment-recommendation-system#6-推荐系统设计与实现) · [测试说明](https://github.com/however-yir/campus-recruitment-recommendation-system#12-测试与质量保障)
+### ragproof
 
-- 基础：保留 Java 8 / Spring Boot 2.2.2 / Vue2 选型的教学与毕业设计项目。
-- 改造重点：相似度加权的协同过滤、冷启动与推荐不足时的兜底、字段白名单更新及账号操作权限收紧。
-- 阅读重点：推荐策略如何融入学生、企业、管理员三类角色的招聘流程。
-- 演示与验证入口在仓库 README 的对应章节中。
+[项目主页](https://github.com/however-yir/ragproof) · [架构设计](https://github.com/however-yir/ragproof/blob/main/docs/ARCHITECTURE.md) · [公开 Benchmark 报告](https://github.com/however-yir/ragproof/blob/main/docs/PUBLIC_BENCHMARK_REPORT.md)
 
-## 知识运营、工程执行与云原生集成
+- 定位：框架无关的 RAG 质量评测与回归测试 CLI 门禁工具。
+- 工程重点：调用既有 RAG HTTP API，计算 Recall@K、MRR、Faithfulness（真实性与幻觉评测）及引用准确率；生成可比版本报告，并在质量退化时通过非零退出码阻断 CI。
+- 阅读重点：评测指标如何与 CI/CD 门禁策略绑定，以及如何针对 Prompt、切片规则或模型变更进行免侵入的自动化防退化验证。
 
 ### NebulaKB
 
@@ -61,6 +60,6 @@
 
 ## 项目之间的关系
 
-KnowledgeOps 与 Tianji 提供显式的跨仓库集成路径，入口见 [KnowledgeOps 验证文档](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/evidence/README.md)。其余项目展示知识运营、工程执行、微服务和推荐系统等方向，分别说明自己的运行条件。
+KnowledgeOps 与 Tianji 提供显式的跨仓库集成路径，入口见 [KnowledgeOps 验证文档](https://github.com/however-yir/knowledgeops-agent/blob/main/docs/evidence/README.md)。ragproof 可作为独立的评测门禁直接对接 KnowledgeOps 等 RAG 服务的 HTTP 接口。其余项目展示知识运营、工程执行与微服务等方向，分别说明自己的运行条件。
 
 实际阅读可从一个项目的业务问题出发，再看实现、测试与结果。[证据说明](portfolio-governance.md)解释如何区分演示、回归测试和真实运行结果。
