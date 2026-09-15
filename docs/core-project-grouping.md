@@ -1,6 +1,6 @@
 # 项目方向、改造重点与来源
 
-[返回主页](../README.md#featured-projects) · [演示与验证入口](ai-matrix-demo-mainline.md)
+[返回主页](../README.md#代表项目) · [演示与验证入口](ai-matrix-demo-mainline.md)
 
 这里介绍主页展示的六个项目，帮助读者按兴趣选择阅读入口。各项目的来源、实现范围与验证条件分别说明。
 

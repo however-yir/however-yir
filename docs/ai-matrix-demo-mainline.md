@@ -1,6 +1,6 @@
 # 演示、设计与验证阅读路线
 
-[返回主页](../README.md#featured-projects) · [项目来源与改造重点](core-project-grouping.md)
+[返回主页](../README.md#代表项目) · [项目来源与改造重点](core-project-grouping.md)
 
 下面的入口对应主页现有的六个项目，可以直接在线阅读。演示说明中的启动命令是复现入口；是否执行，以及使用什么环境和模型，由读者按需决定。
 
