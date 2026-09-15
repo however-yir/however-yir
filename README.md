@@ -1,6 +1,8 @@
-<h1 align="center">Hi, I'm however-yir</h1>
-
-<p align="center"><strong>AI Engineer · Java Backend Developer</strong></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-light.png">
+  <img src="assets/profile-banner-light.png" alt="however-yir · AI Engineer · Java Backend Developer — 深空极光横幅" width="100%">
+</picture>
 
 <p align="center">让知识问答有据可查，让业务 Agent 的动作可控，让系统改动有验证依据。</p>
 
