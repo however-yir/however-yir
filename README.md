@@ -17,7 +17,7 @@
 
 ## 代表项目
 
-从知识检索、业务执行到质量评测，三个项目分别展示 AI 应用工程的不同环节。
+围绕 **Java 后端与 AI 应用工程**，重点展示两个项目：KnowledgeOps 提供知识检索与引用能力，Tianji 将 Agent 接入课程咨询与订单预确认流程。
 
 ### [KnowledgeOps Agent](https://github.com/however-yir/knowledgeops-agent) · 知识检索
 
@@ -37,24 +37,7 @@
 
 [演示指南](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/demo-script.md) · [Agent 设计](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/agent-design.md) · [验证材料](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/evidence/README.md) · [来源与改造](https://github.com/however-yir/tianji-ai-agent/blob/main/docs/provenance.md)
 
-### [ragproof](https://github.com/however-yir/ragproof) · 质量评测
-
-框架无关的 **RAG 评测与回归测试 CLI**，在 Prompt、切片规则或模型变更后检查质量是否退化。
-
-- **实现重点：** 调用既有 RAG HTTP API，计算检索与引用指标、比较版本报告，并通过退出码让 CI 在未达标时失败。
-- **适合了解：** 如何把质量要求变成可重复执行的评测流程与合并条件。
-
-[CLI 快速上手](https://github.com/however-yir/ragproof#run-a-gate-in-30-seconds) · [架构设计](https://github.com/however-yir/ragproof/blob/main/docs/ARCHITECTURE.md) · [公开基准报告](https://github.com/however-yir/ragproof/blob/main/docs/PUBLIC_BENCHMARK_REPORT.md)
-
-## 更多项目
-
-| 项目 | 解决的问题与实现范围 | 阅读入口 |
-|---|---|---|
-| [NebulaKB](https://github.com/however-yir/nebula-kb) | 基于 Django 的知识运营：文档接入、检索反馈与低质量答案回看。 | [演示指南](https://github.com/however-yir/nebula-kb/blob/main/docs/demo-script.md) · [定位与边界](https://github.com/however-yir/nebula-kb/blob/main/docs/repo-positioning.md) |
-| [ForgePilot Studio](https://github.com/however-yir/forgepilot-studio) | 基于 OpenHands 的工程工作台：任务台、审计工具及实验性治理模块。核心治理模块尚未接入默认执行链路。 | [产品预览](https://github.com/however-yir/forgepilot-studio#产品预览) · [来源与改造](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md) |
-| [Microservices Lab](https://github.com/however-yir/however-microservices-lab) | 扩展 Google Online Boutique：接入 AI 购物助手、本地模型回退与 Kubernetes 部署。 | [本地演示指南](https://github.com/however-yir/however-microservices-lab/blob/main/docs/local-demo.md) · [来源与改造](https://github.com/however-yir/however-microservices-lab/blob/main/docs/diff-from-upstream.md) |
-
-[全部项目的演示、设计与验证入口](docs/ai-matrix-demo-mainline.md) · [项目来源与实现范围](docs/core-project-grouping.md) · [如何阅读验证材料](docs/portfolio-governance.md)
+[两个项目的演示、设计与验证入口](docs/ai-matrix-demo-mainline.md) · [项目来源与实现范围](docs/core-project-grouping.md) · [如何阅读验证材料](docs/portfolio-governance.md)
 
 ## 开源贡献
 

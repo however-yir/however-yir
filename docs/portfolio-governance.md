@@ -18,7 +18,7 @@
 ## 来源与项目状态
 
 - 有上游基础的项目同时提供继承部分与改造重点，入口见[项目来源说明](core-project-grouping.md)。
-- 平台原型、教学项目和实验性组件保留各自状态。ForgePilot 的核心治理模块是否接入默认执行链路，以其[差异说明](https://github.com/however-yir/forgepilot-studio/blob/main/docs/fork-differentiation.md)为准。
+- KnowledgeOps 保留平台原型的定位；Tianji 区分既有教育业务底座与新增 Agent 工作。能力状态与默认运行路径限制，以各自仓库的 README、来源说明和验证材料为准。
 - 主页的贡献列表记录已合并的外部 PR，并按功能实现、代码重构、测试、文档及示例配置区分贡献类型；测试随所属 PR 说明，不另计 PR 数量。
 - 截图、离线回归、真实模型评估和生产运行分别提供不同层面的证据；具体结论跟随对应材料的适用范围。
 
