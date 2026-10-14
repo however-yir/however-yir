@@ -20,10 +20,15 @@ jobs:
       - name: Lychee Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
+          # Validate linked files directly to avoid transient GitHub blob-page 503s.
+          # Keep the reader-facing URLs and failure status checks unchanged.
           args: >-
             --no-progress
             --accept 200,204,429
+            --max-concurrency 4
             --max-retries 3
+            --retry-wait-time 5
             --timeout 30
+            --remap '^https://github\.com/however-yir/([^/]+)/blob/(.+)$ https://raw.githubusercontent.com/however-yir/$1/$2'
             '**/*.md'
           fail: true
